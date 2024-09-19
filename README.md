@@ -49,13 +49,15 @@ This model is a **Convolutional Neural Network (CNN)** designed for image classi
 
 The graph below shows the training and validation accuracy of the model over 20 epochs.
 
-![Model Accuracy](images/accuracy_plot.png)
+<img width="688" alt="image" src="https://github.com/user-attachments/assets/becd849d-78ac-4da1-ada6-95da004747f5">
+
 
 ### Loss over Epochs
 
 The graph below shows the training and validation loss of the model over 20 epochs.
 
-![Model Loss](images/loss_plot.png)
+<img width="688" alt="image" src="https://github.com/user-attachments/assets/32681002-2c94-4a5c-a247-ba4ac228be5a">
+
 
 ---
 
@@ -103,25 +105,11 @@ The model is trained over 20 epochs with validation data using the **TensorBoard
 
 Here are the visualizations of accuracy and loss for both training and validation sets:
 
-`fig, ax = plt.subplots(figsize=(10, 6))`  
-`ax.plot(hist.history['accuracy'], color='teal', label='Training Accuracy')`  
-`ax.plot(hist.history['val_accuracy'], color='orange', label='Validation Accuracy')`  
-`ax.set_title('Model Accuracy Over Epochs')`  
-`ax.set_xlabel('Epochs')`  
-`ax.set_ylabel('Accuracy')`  
-`ax.legend(loc='lower right')`  
-`ax.grid(True)`  
-`plt.show()`
+<img width="688" alt="image" src="https://github.com/user-attachments/assets/ea6c1b74-443e-4aef-9a50-0c5e3912bc02">
 
-`fig, ax = plt.subplots(figsize=(10, 6))`  
-`ax.plot(hist.history['loss'], color='blue', label='Training Loss')`  
-`ax.plot(hist.history['val_loss'], color='red', label='Validation Loss')`  
-`ax.set_title('Model Loss Over Epochs')`  
-`ax.set_xlabel('Epochs')`  
-`ax.set_ylabel('Loss')`  
-`ax.legend(loc='upper right')`  
-`ax.grid(True)`  
-`plt.show()`
+
+<img width="688" alt="image" src="https://github.com/user-attachments/assets/709d6011-2b29-4c03-982a-7669a3b252b9">
+
 
 ---
 
@@ -147,10 +135,6 @@ After running the model training, you can launch TensorBoard to visualize the lo
 
 `tensorboard --logdir=logs`
 
-Navigate to the provided URL to view training and validation metrics in real time.
+Navigate to the provided URL to view training and validation metrics in real-time.
 
 ---
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
